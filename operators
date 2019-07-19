@@ -1,0 +1,5 @@
+    var tip = meal_cost * (tip_percent / 100);
+    var tax = meal_cost * (tax_percent / 100);
+    var p = meal_cost + tip + tax;
+    var totalCost = p.toFixed(0);
+    console.log(totalCost); 
